@@ -19,8 +19,8 @@ inline void swap(T& d,T& s)
 }
 
 template <class summable>
-summable sum(summable data[],int size) { //this is correct , power point is wrong one
-    summable asum =0;
+summable sum(const summable data[],int size,summable asum=0) { //this is correct , power point is wrong one
+
     for (int i=0; i<size; ++i){
         asum += data[i];
     }
