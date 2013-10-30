@@ -16,7 +16,8 @@ T iteration(T data[],int size) {
     return 0; // just do not know why need this, if not would have error" control reaches end of non-void function "
 }
 
-int main(void)
+int main(void) //need to add void or have error" control reaches end of non-void function "
+
 {
     int a[]={1,3,5};
     double b[]={1.2,3.4,5.6};
