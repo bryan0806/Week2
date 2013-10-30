@@ -28,6 +28,15 @@ summable sum(const summable data[],int size,summable asum=0) { //this is correct
     return asum;
 };
 
+template <class P>
+P sub(const P data[],int size,P asub=0){
+	for (int k=0, k < size; ++k){
+		asub -= data[k];
+	}
+
+	return asub;
+}
+
 int main() {
 	 int m=5,n=10;
 	    double x=5.3,y=10.6;
