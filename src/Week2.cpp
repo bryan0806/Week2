@@ -33,6 +33,8 @@ int main() {
 	    double x=5.3,y=10.6;
 	    complex<double> r(2.4, 3.5),s(3.4, 6.7);
 	    cout<<"Input:"<<m<<","<<n<<endl;
+	    int a[]={1,2,3};
+	    double b[]={2.1,2.2,2.3};
 	    ::swap(m,n); // As you can see, it lists the STL� std::swap() as one of the candidate functions.
 	    //Since you�e using the std namespace, the compiler doesn� have enough information to
 	    //determine which function should be used
@@ -45,5 +47,6 @@ int main() {
 	    cout<<"complex input:"<<r<<","<<s<<endl;
 	    ::swap(r,s);
 	    cout<<"double output:"<<r<<","<<s<<endl;
-
+        cout<<"sum of array a is :"<<sum(a,3)<<endl;
+        cout<<"sum of array b is :"<<sum(b,3)<<endl;
 }
