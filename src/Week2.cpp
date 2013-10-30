@@ -49,4 +49,6 @@ int main() {
 	    cout<<"double output:"<<r<<","<<s<<endl;
         cout<<"sum of array a is :"<<sum(a,3)<<endl;
         cout<<"sum of array b is :"<<sum(b,3)<<endl;
+        cout<<"sum of array a when default asum=5 : "<<sum(a,3,5)<<endl;
+        cout<<"sum of array b when default asum=2 : "<<sum(b,3,12.0)<<endl; //here if you use 12 would have error
 }
