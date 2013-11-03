@@ -15,7 +15,7 @@ void prn_random_numbers(int k){
     r=biggest=smallest=rand();
     cout<<endl<<r;
     
-    for (int i=0;i<k; ++i) {
+    for (int i=1;i<k; ++i) {
         if (i%5==0) {
             cout<<endl;
         }else{
